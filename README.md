@@ -14,7 +14,7 @@
 
 # Install Python packages
 (o3d) ~/open3d-demo$ pip install -r requirements.txt
-# For CPU with Mac OS, use this command
+# For CPU with MacOS, use the commands below
 (o3d) ~/open3d-demo$ conda install pytorch==1.8.1 torchvision==0.9.1 torchaudio==0.8.1 -c pytorch
 (o3d) ~/open3d-demo$ pip install -r requirements-cpu.txt
 ```

@@ -10,7 +10,7 @@
 ```bash
 # Conda environment
 ~/open3d-demo$ conda create -n o3d python=3.8 -y
-(o3d) ~/open3d-demo$ conda activate o3d
+~/open3d-demo$ conda activate o3d
 
 # Install Python packages
 (o3d) ~/open3d-demo$ pip install -r requirements.txt
@@ -20,7 +20,7 @@
 ```bash
 # Conda environment
 ~/open3d-demo$ conda create -n o3d python=3.8 -y
-(o3d) ~/open3d-demo$ conda activate o3d
+~/open3d-demo$ conda activate o3d
 
 # Build from source
 (o3d) ~/open3d-demo$ cd thirdparty/Open3D

@@ -1,7 +1,7 @@
 # Open3D Demo
 
 ## 0. Dependencies
-- Ubuntu 20.04
+- Ubuntu 20.04 (or, MacOS)
 - CUDA 11.1 (optional)
 - Python 3.8
 - Conda (recommended)

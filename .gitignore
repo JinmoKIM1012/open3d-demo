@@ -1,4 +1,5 @@
 *.ipynb_checkpoints/
 
-logs/
-!/logs/cache/.gitkeep
+notebook/logs/
+!notebook/logs/cache/.gitkeep
+notebook/train_log/

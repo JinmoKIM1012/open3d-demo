@@ -1,18 +1,19 @@
 # Open3D Demo
 
 ## 0. Dependencies
-- Ubuntu 20.04 (or, MacOS)
-- CUDA 11.1 (optional)
+- Ubuntu 20.04
+- CUDA 11.1
 - Python 3.8
 - Conda (recommended)
 
-## 1-1. Install with pre-built Python wheels
+## 1. Install with pre-built Python wheels
 ```bash
 # Conda environment
 ~/open3d-demo$ conda create -n o3d python=3.8 -y
 ~/open3d-demo$ conda activate o3d
 
 # Install Python packages
+(o3d) ~/open3d-demo$ pip install -r requirements-torch-cuda.txt
 (o3d) ~/open3d-demo$ pip install -r requirements.txt
 # For CPU with MacOS, use the commands below
 (o3d) ~/open3d-demo$ conda install pytorch==1.8.1 torchvision==0.9.1 torchaudio==0.8.1 -c pytorch

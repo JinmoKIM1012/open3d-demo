@@ -6,7 +6,7 @@
 - Python 3.8
 - Conda (recommended)
 
-## 1. Install with pre-built Python wheels
+## 1-1. Install with pre-built Python wheels
 ```bash
 # Conda environment
 ~/open3d-demo$ conda create -n o3d python=3.8 -y
@@ -15,12 +15,12 @@
 # Install Python packages
 (o3d) ~/open3d-demo$ pip install -r requirements-torch-cuda.txt
 (o3d) ~/open3d-demo$ pip install -r requirements.txt
-# For CPU with MacOS, use the commands below
-(o3d) ~/open3d-demo$ conda install pytorch==1.8.1 torchvision==0.9.1 torchaudio==0.8.1 -c pytorch
-(o3d) ~/open3d-demo$ pip install -r requirements-cpu.txt
+## For CPU with MacOS, use the commands below
+# (o3d) ~/open3d-demo$ conda install pytorch==1.8.1 torchvision==0.9.1 torchaudio==0.8.1 -c pytorch
+# (o3d) ~/open3d-demo$ pip install -r requirements-cpu.txt
 ```
 
-## 1-2. Build from source
+## 1-2 (Optional). Build from source
 ```bash
 # Conda environment
 ~/open3d-demo$ conda create -n o3d python=3.8 -y

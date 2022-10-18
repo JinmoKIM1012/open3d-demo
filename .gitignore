@@ -6,3 +6,6 @@ notebook/train_log/
 
 notebook/pretrained_weights/
 !notebook/pretrained_weights/.gitkeep
+
+notebook/test/
+!notebook/test/.gitkeep

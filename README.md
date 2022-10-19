@@ -6,6 +6,11 @@
 - Python 3.8
 - Conda (recommended)
 
+## Clone this repository
+```
+git clone https://github.com/junha-l/open3d-demo/
+```
+
 ## 1-1. Install with pre-built Python wheels
 ```bash
 # Conda environment

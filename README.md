@@ -13,8 +13,13 @@
 ~/open3d-demo$ conda activate o3d
 
 # Install Python packages
-(o3d) ~/open3d-demo$ pip install -r requirements-torch-cuda.txt
+
+## For section [1.registration], [2.reconstruction]
 (o3d) ~/open3d-demo$ pip install -r requirements.txt
+
+## For section 3, 4,5
+(o3d) ~/open3d-demo$ pip install -r requirements-torch-cuda.txt
+
 ## For CPU with MacOS, use the commands below
 # (o3d) ~/open3d-demo$ conda install pytorch==1.8.1 torchvision==0.9.1 torchaudio==0.8.1 -c pytorch
 # (o3d) ~/open3d-demo$ pip install -r requirements-cpu.txt
@@ -36,3 +41,9 @@
 (o3d) ~/open3d-demo/thirdparty/Open3D/build$ cmake -DPython3_ROOT=$(which python) -DBUILD_PYTHON_MODULE=ON -DGLIBCXX_USE_CXX11_ABI=OFF -DBUILD_CUDA_MODULE=ON -DBUILD_PYTORCH_OPS=ON -DBUNDLE_OPEN3D_ML=ON -DOPEN3D_ML_ROOT=https://github.com/isl-org/Open3D-ML.git .. # does not work for Open3D-ML and don't know why
 (o3d) ~/open3d-demo/thirdparty/Open3D/build$ make -j install-pip-package
 ```
+
+## 2. Launch Jupyter Lab
+```
+jupyter lab --ip=0.0.0.0 --port 8889 --allow-root
+```
+

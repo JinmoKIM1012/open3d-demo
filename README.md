@@ -8,7 +8,7 @@
 
 ## Clone this repository
 ```
-git clone https://github.com/junha-l/open3d-demo/
+git clone https://github.com/junha-l/open3d-demo.git
 ```
 
 ## 1-1. Install with pre-built Python wheels
